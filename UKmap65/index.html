@@ -7,21 +7,21 @@
     <style> 
 
       path {
-        fill: rgb(41, 180, 48);
+        fill: rgb(10, 118, 15);
         stroke: rgb(0, 0, 0);
         stroke-width: 1;
       }
       
       circle {
-        fill: red;
+        fill: rgb(255, 255, 6);
         opacity: 0.7;
       }
       body{
-        background-color: rgb(16, 59, 124);
+        background-color: rgb(37, 81, 148);
       }
       .tooltip {
     position: absolute;
-    background-color: rgb(182, 235, 6);
+    background-color: rgb(232, 232, 232);
     padding: 10px;
     border: 1px solid rgb(20, 34, 133);
     border-radius: 5px;
@@ -36,9 +36,10 @@
     </style>
   </head>
   <body>
-    <h1> The United Kingdom </h1>
+      <h1 style="color: aliceblue;">United Kingdom </h1>
     <button onclick="reloadData()">Reload Data</button> 
-    <label for="townCount">Number of Towns:</label>
+    <label for="townCount">Number of Towns:
+    </label>
         <input type="range" id="townCount" min="0" max="50" step="1" value="0">
         <span id="sliderValue">10</span>
         <div class="tooltip" id="customTooltip"></div> 
